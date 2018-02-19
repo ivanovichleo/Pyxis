@@ -1,0 +1,77 @@
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\csc.exe
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\csi.exe
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\Presentacion.dll.config
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\Presentacion.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\Presentacion.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\DataBase.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\Negocio.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\DataBase.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\DataBase.dll.config
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\Negocio.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\csc.exe
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\csc.rsp
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\csi.exe
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\csi.rsp
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\Presentacion.dll.config
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\Presentacion.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\Presentacion.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\DataBase.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\Negocio.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\DataBase.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\Negocio.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Presentacion\obj\Debug\Presentacion.pdb

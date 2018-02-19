@@ -1,0 +1,22 @@
+c:\users\carlo\documents\visual studio 2015\Projects\MastourBar950990\Negocio\bin\Debug\Negocio.dll
+c:\users\carlo\documents\visual studio 2015\Projects\MastourBar950990\Negocio\bin\Debug\Negocio.pdb
+c:\users\carlo\documents\visual studio 2015\Projects\MastourBar950990\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+c:\users\carlo\documents\visual studio 2015\Projects\MastourBar950990\Negocio\obj\Debug\Negocio.dll
+c:\users\carlo\documents\visual studio 2015\Projects\MastourBar950990\Negocio\obj\Debug\Negocio.pdb
+c:\users\carlo\documents\visual studio 2015\Projects\MastourBar950990\Negocio\bin\Debug\DataBase.dll
+c:\users\carlo\documents\visual studio 2015\Projects\MastourBar950990\Negocio\bin\Debug\DataBase.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\obj\Debug\Negocio.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\bin\Debug\Negocio.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\bin\Debug\DataBase.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\bin\Debug\DataBase.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\Negocio\bin\Debug\DataBase.dll.config
+C:\Users\Administrador\Downloads\Login Pyxis\Negocio\bin\Debug\Negocio.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\Negocio\bin\Debug\DataBase.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Negocio\bin\Debug\DataBase.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\Login Pyxis\Negocio\obj\Debug\Negocio.dll
+C:\Users\Administrador\Downloads\Login Pyxis\Negocio\obj\Debug\Negocio.pdb

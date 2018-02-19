@@ -1,0 +1,20 @@
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\bin\Debug\DataBase.dll.config
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\bin\Debug\DataBase.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\bin\Debug\EntityFramework.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\bin\Debug\EntityFramework.xml
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\obj\Debug\DataBase.dll
+C:\Users\Ivanoichleo.Ivanoichleo-PC\Documents\Visual Studio 2017\Projects\Login Pyxis\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\bin\Debug\DataBase.dll.config
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\bin\Debug\DataBase.dll
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\obj\Debug\DataBase.dll
+C:\Users\Administrador\Downloads\Login Pyxis\DataBase\obj\Debug\DataBase.pdb

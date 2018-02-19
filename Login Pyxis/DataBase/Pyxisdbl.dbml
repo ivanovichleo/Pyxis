@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Pyxis" Class="PyxisdblDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DATACENTER2017;Initial Catalog=Pyxis;Integrated Security=True" SettingsObjectName="DataBase.Properties.Settings" SettingsPropertyName="PyxisConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Usuarios" Member="Usuarios">
+    <Type Name="Usuarios">
+      <Column Name="Idusuario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="documento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_doc" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="barrio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefono" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="contrasena" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Usuarios_mascotas" Member="mascotas" ThisKey="Idusuario" OtherKey="Idusuario" Type="mascotas" />
+      <Association Name="Usuarios_paseadores" Member="paseadores" ThisKey="Idusuario" OtherKey="pa_idusu" Type="paseadores" />
+      <Association Name="Usuarios_PQR" Member="PQR" ThisKey="Idusuario" OtherKey="idusu" Type="PQR" />
+      <Association Name="Usuarios_servicio" Member="servicio" ThisKey="Idusuario" OtherKey="se_idusuario" Type="servicio" />
+    </Type>
+  </Table>
+  <Table Name="dbo.calificaciones" Member="calificaciones">
+    <Type Name="calificaciones">
+      <Column Name="Idcalificacion" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="opinion" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="puntuacion" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fecha_ca" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="servicioId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="servicio_calificaciones" Member="servicio" ThisKey="servicioId" OtherKey="Idservicio" Type="servicio" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mascotas" Member="mascotas">
+    <Type Name="mascotas">
+      <Column Name="Idmascota" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tamaño" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="edad" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="raza" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nombre_ma" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Idusuario" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Usuarios_mascotas" Member="Usuarios" ThisKey="Idusuario" OtherKey="Idusuario" Type="Usuarios" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.paseadores" Member="paseadores">
+    <Type Name="paseadores">
+      <Column Name="Idpaseador" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="disponibilidad" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="experiencia" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="calificacion_prom" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="especialidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pa_idusu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="estado" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="paseadores_PQR" Member="PQR" ThisKey="Idpaseador" OtherKey="idpas" Type="PQR" />
+      <Association Name="Usuarios_paseadores" Member="Usuarios" ThisKey="pa_idusu" OtherKey="Idusuario" Type="Usuarios" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PQR" Member="PQR">
+    <Type Name="PQR">
+      <Column Name="IdPQR" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="fecha_PQR" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="comentario" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="idusu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idpas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Usuarios_PQR" Member="Usuarios" ThisKey="idusu" OtherKey="Idusuario" Type="Usuarios" IsForeignKey="true" />
+      <Association Name="paseadores_PQR" Member="paseadores" ThisKey="idpas" OtherKey="Idpaseador" Type="paseadores" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.servicio" Member="servicio">
+    <Type Name="servicio">
+      <Column Name="Idservicio" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="fecha_se" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="estado_se" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="detalles_se" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="se_idusuario" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="servicio_calificaciones" Member="calificaciones" ThisKey="Idservicio" OtherKey="servicioId" Type="calificaciones" />
+      <Association Name="Usuarios_servicio" Member="Usuarios" ThisKey="se_idusuario" OtherKey="Idusuario" Type="Usuarios" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.ActualizarUsuario" Method="ActualizarUsuario">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="APELLIDO" Parameter="aPELLIDO" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="TELEFONO" Parameter="tELEFONO" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="BARRIO" Parameter="bARRIO" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CORREO" Parameter="cORREO" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.OrganizarPaseador" Method="OrganizarPaseador">
+    <ElementType Name="OrganizarPaseadorResult">
+      <Column Name="Idpaseador" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefono" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="barrio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Crearpaseador" Method="Crearpaseador">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="disponibilidad" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Experiencia" Parameter="experiencia" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Especialidad" Parameter="especialidad" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="precio" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CrearUsuario" Method="CrearUsuario">
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="APELLIDO" Parameter="aPELLIDO" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CONTRASENA" Parameter="cONTRASENA" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CORREO" Parameter="cORREO" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="telefono" Type="System.Int32" DbType="Int" />
+    <Parameter Name="barrio" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="documento" Type="System.Int32" DbType="Int" />
+    <Parameter Name="tipodoc" Type="System.String" DbType="VarChar(5)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Consultarpaseador" Method="Consultarpaseador">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <ElementType Name="ConsultarpaseadorResult">
+      <Column Name="Idpaseador" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefono" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="barrio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tipo_doc" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="documento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.buscarpaseadorN" Method="buscarpaseadorN">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="buscarpaseadorNResult">
+      <Column Name="Idpaseador" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefono" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="barrio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Inactivarpaseador" Method="Inactivarpaseador">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
